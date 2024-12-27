@@ -5,7 +5,7 @@ from .views import CreateArticleView, GetUpdateDeleteArticleView
 urlpatterns = [
     path("articles/", CreateArticleView.as_view()),
     path(
-        "articles/<uuid:course_id>/",
+        "articles/<uuid:article_id>/",
         GetUpdateDeleteArticleView.as_view(),
     ),
 ]

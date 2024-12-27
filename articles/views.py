@@ -17,4 +17,4 @@ class GetUpdateDeleteArticleView(generics.RetrieveUpdateDestroyAPIView):
     
   queryset = Articles.objects.all()
   serializer_class = ArticlesSerializer
-  
+  lookup_url_kwarg = 'article_id'
