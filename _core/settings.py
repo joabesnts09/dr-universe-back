@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'rest_framework_simplejwt',
     'corsheaders',
+    'drf_spectacular',
     'accounts',
     'articles',
     'events',
@@ -82,9 +83,10 @@ TEMPLATES = [
 
 
 REST_FRAMEWORK = {
-    'DEFAULT_AUTHENTICATION_CLASSES': (
-        'rest_framework_simplejwt.authentication.JWTAuthentication',
-    ),
+    'DEFAULT_AUTHENTICATION_CLASSES': [
+        'rest_framework_simplejwt.authentication.JWTAuthentication'
+    ],
+    'DEFAULT_SCHEMA_CLASS': 'drf_spectacular.openapi.AutoSchema',
 }
 
 SIMPLE_JWT = {
@@ -164,3 +166,10 @@ AUTH_USER_MODEL = "accounts.Account"
 CORS_ALLOWED_ORIGINS = [
 	'http://localhost:3000'
 ]
+
+
+SPECTACULAR_SETTINGS = {
+    'TITLE': 'Doutor Universo BackEnd',
+    'DESCRIPTION': 'Sistema backend para gerenciar artigos e eventos astronômicos.',
+    'VERSION': '1.0.0',
+}
