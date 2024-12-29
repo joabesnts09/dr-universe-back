@@ -16,4 +16,4 @@ class AccountSerializer(serializers.ModelSerializer):
         if validated_data['is_superuser']:
             return Account.objects.create_superuser(**validated_data)
         
-        return Account.objects.create_user(**validated_data) 
+        return Account.objects.create_user(**validated_data)
