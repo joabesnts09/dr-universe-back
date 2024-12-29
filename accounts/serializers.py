@@ -8,7 +8,8 @@ class AccountSerializer(serializers.ModelSerializer):
         model = Account
         fields = ['id', 'username', 'password', 'email', 'is_superuser']
         extra_kwargs = {
-            'password': {'write_only': True}
+            'password': {'write_only': True},
+            'is_superuser': {'read_only': True},
         }
 
     def create(self, validated_data: Account):
