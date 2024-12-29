@@ -4,8 +4,8 @@ from .models import Events
 
 class BulkEventsSerializer(serializers.ListSerializer):
     def create(self, validated_data):
-        Events = [Events(**item) for item in validated_data]
-        return Events.objects.bulk_create(Events)
+        events = [Events(**item) for item in validated_data]
+        return Events.objects.bulk_create(events)
 
 
 class EventsSerializer(serializers.ModelSerializer):
