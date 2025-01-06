@@ -164,7 +164,8 @@ AUTH_USER_MODEL = "accounts.Account"
 
 
 CORS_ALLOWED_ORIGINS = [
-	'http://localhost:3000'
+	'http://localhost:3000',
+    'https://dr-universo.vercel.app/'
 ]
 
 
