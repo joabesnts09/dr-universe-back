@@ -4,18 +4,11 @@ Um blog sobre astronomia, pensado para oferecer uma experiência intuitiva, din�
 
 ## 🚀 Tecnologias Utilizadas
 
-### 🔹 Frontend:
-- **Next.js**: Para uma interface rápida e responsiva.
-- **TypeScript**: Garantindo um código mais seguro e escalável.
-- **TailwindCSS**: Para estilização eficiente e design moderno.
-- **Next-Themes**: Permite alternar entre temas claro e escuro com um design fluido.
-
 ### 🔹 Backend:
 - **Python com Django e Django REST Framework**: Estruturando uma API robusta e segura para atender ao projeto.
 - **PostgreSQL**: Para gerenciamento eficiente de dados.
 
 ### 🔹 Deploy:
-- **Vercel**: Hospedagem do frontend para desempenho otimizado.
 - **Vercel**: Deploy do backend com escalabilidade e estabilidade.
 
 ## 📌 Como acessar o projeto
