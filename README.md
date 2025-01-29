@@ -13,7 +13,7 @@ Um blog sobre astronomia, pensado para oferecer uma experiência intuitiva, din�
 
 ## 📌 Como acessar o projeto
 - 🔗 **Frontend:** [Deploy no Vercel](https://dr-universo.vercel.app/)
-- 🔗 **Backend:** [Repositório no GitHub](https://github.com/joabesnts09/dr-universe-back)
+- 🔗 **Frontend:** [Repositório no GitHub](https://github.com/joabesnts09/dr-universo-app)
 - 🔗 **LinkedIn:** [Meu Perfil](https://www.linkedin.com/in/joabe-santos-5a20a3206/)
 
 ## 📖 Recursos do Blog
